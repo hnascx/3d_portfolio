@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { BsGithub, BsLinkedin, BsWhatsapp } from 'react-icons/bs'
 
 import { styles } from '../styles'
 import { navLinks } from '../constants'
-import { logo, menu, close } from '../assets'
+import { menu, close } from '../assets'
 
 const Navbar = () => {
   const [active, setActive] = useState('')
@@ -14,17 +14,38 @@ const Navbar = () => {
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}  
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-        <Link
-          to='/'
-          className='flex items-center gap-2'
-          onClick={() => {
-            setActive('')
-            window.scrollTo(0, 0)
-          }}
-        >
-          <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Henrique &nbsp;<span className='sm:block hidden'>|&nbsp; Web Developer</span></p>
-        </Link>
+        <div className='flex flex-row gap-3'>
+          <svg width="0" height="0">
+            <linearGradient id="green-pink-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop stopColor="#00cea8" offset="0%" />
+              <stop stopColor="#bf61ff" offset="100%" />
+            </linearGradient>
+          </svg>
+          <a 
+            href="https://www.linkedin.com/in/henrique-xavier-565aa114b/"
+            target='_blank'
+            rel="noreferrer noopener"
+            className='transition ease-in hover:scale-110 duration-200'
+          >
+            <BsLinkedin size={26} style={{ fill: "url(#green-pink-gradient)" }} />
+          </a>
+          <a 
+            href="https://encurtador.com.br/fENQV" 
+            target='_blank'
+            rel="noreferrer noopener"
+            className='transition ease-in hover:scale-110 duration-200'
+          >
+            <BsWhatsapp size={26} style={{ fill: "url(#green-pink-gradient)" }} />
+          </a>
+          <a 
+            href="https://github.com/hnascx"
+            target='_blank'
+            rel="noreferrer noopener"
+            className='transition ease-in hover:scale-110 duration-200'
+          >
+            <BsGithub size={26} style={{ fill: "url(#green-pink-gradient)" }} />
+          </a>
+        </div>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
             <li 
