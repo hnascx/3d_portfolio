@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -6,9 +6,11 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import network from "./network.png"
+import zarif from "./zarif.png"
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import github2 from "./tech/github2.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -37,10 +39,10 @@ export {
   mobile,
   web,
   github,
+  github2,
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
@@ -59,4 +61,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  network,
+  zarif
 };
