@@ -32,7 +32,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
               <img 
                 src={network}
                 alt="network"
-                className='w-1/2 h-1/2 object-contain'
+                className='w-2/3 h-2/3 object-contain'
               />
             </div>
             <div
@@ -41,7 +41,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
               <img 
                 src={github}
                 alt="github"
-                className='w-1/2 h-1/2 object-contain'
+                className='w-4/5 h-4/5 object-contain'
               />
             </div>
           </div>
