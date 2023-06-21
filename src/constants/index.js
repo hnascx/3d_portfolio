@@ -18,7 +18,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  zarif,
+  todolist,
   threejs,
 } from "../assets";
 
@@ -47,7 +47,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Designer",
+    title: "UI/UX Designer",
     icon: web,
   },
 ];
@@ -191,26 +191,26 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Landing Page - Zarif",
+    name: "To do list",
     description:
-      "Aplicação web desenvolvida visando captura de leads para as ferramentas de marketing da organização. Possui como principal funcionalidade a exibição da câmera ao vivo do estabelecimento.",
+      "Aplicação web desenvolvida para simplificar o registro e acompanhamento de tarefas do cotidiano.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "cssmodules",
         color: "pink-text-gradient",
       },
       {
-        name: "javascript",
+        name: "typescript",
         color: "orange-text-gradient",
       },
     ],
-    image: zarif,
-    source_code_link: "https://github.com/hnascx/lp-zarif",
-    website_link: "https://www.lojadostapetes.com.br"
+    image: todolist,
+    source_code_link: "https://github.com/hnascx/todolist",
+    website_link: "https://todolist.hnascx.dev"
   },
 ];
 

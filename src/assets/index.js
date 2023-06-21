@@ -7,7 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import network from "./network.png"
-import zarif from "./zarif.png"
+import todolist from "./todolist.png"
 
 import css from "./tech/css.png";
 import github2 from "./tech/github2.png";
@@ -62,5 +62,5 @@ export {
   jobit,
   tripguide,
   network,
-  zarif
+  todolist
 };
