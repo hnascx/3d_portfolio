@@ -7,10 +7,12 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  nextjs,
+  styledcomponents,
   tailwind,
   nodejs,
   mongodb,
+  mysql,
   git,
   figma,
   github2,
@@ -19,7 +21,7 @@ import {
   tesla,
   shopify,
   todolist,
-  threejs,
+  timer
 } from "../assets";
 
 export const navLinks = [
@@ -39,15 +41,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Front-end Developer",
+    title: "Sólidos conhecimentos em HTML, CSS e Javascript",
     icon: backend,
   },
   {
-    title: "Back-end Developer",
+    title: "Proeficiência em UI/UX",
     icon: mobile,
   },
   {
-    title: "UI/UX Designer",
+    title: "Adaptabilidade e aprendizado contínuo 🎯",
     icon: web,
   },
 ];
@@ -74,12 +76,16 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Next.js",
+    icon: nextjs,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "styledcomponents",
+    icon: styledcomponents,
   },
   {
     name: "Node JS",
@@ -90,8 +96,12 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "figma",
+    icon: figma,
   },
   {
     name: "git",
@@ -100,10 +110,6 @@ const technologies = [
   {
     name: "github",
     icon: github2,
-  },
-  {
-    name: "figma",
-    icon: figma,
   }
 ];
 
@@ -211,6 +217,36 @@ const projects = [
     image: todolist,
     source_code_link: "https://github.com/hnascx/todolist",
     website_link: "https://todolist.hnascx.dev"
+  },
+  {
+    name: "Timer",
+    description:
+      "App voltado para o gerenciamento de tempo de forma eficiente. Permite definir intervalos de tempo para diferentes tarefas e atividades, aumentando a produtividade.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "styled-components",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "react-hook-form",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "zod",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: timer,
+    source_code_link: "https://github.com/hnascx/timer",
+    website_link: "https://timer.hnascx.dev"
   },
 ];
 

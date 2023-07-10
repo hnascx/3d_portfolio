@@ -44,7 +44,7 @@ const About = () => {
       >
         Com habilidades em criação de aplicações web interativas e escaláveis, sou capaz de desenvolver soluções personalizadas para atender as necessidades específicas de cada cliente, resolvendo problemas complexos de maneira eficiente. Minhas habilidades em desenvolvimento de aplicações web responsivas e dinâmicas com foco em UX garantem uma experiência de usuário aprimorada e satisfatória. Com isso, posso oferecer serviços de alta qualidade e ajudar a  empresa a se destacar no mercado de tecnologia.<br/>
         <br/>
-        Principais <i>techs</i>: Javascript, React.js, TailwindCSS, Node.js e Figma
+        Principais <i>techs</i>: Typescript, React.js, Next.js e TailwindCSS.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

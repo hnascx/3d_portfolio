@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import network from "./network.png"
 import todolist from "./todolist.png"
+import timer from "./timer.png"
 
 import css from "./tech/css.png";
 import github2 from "./tech/github2.png";
@@ -16,12 +17,13 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
+import mysql from "./tech/mysql.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import nextjs from "./tech/nextjs.svg";
 import tailwind from "./tech/tailwind.png";
+import styledcomponents from "./tech/styled-components.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -48,12 +50,13 @@ export {
   html,
   javascript,
   mongodb,
+  mysql,
   nodejs,
   reactjs,
-  redux,
+  nextjs,
   tailwind,
   typescript,
-  threejs,
+  styledcomponents,
   meta,
   shopify,
   starbucks,
@@ -62,5 +65,6 @@ export {
   jobit,
   tripguide,
   network,
-  todolist
+  todolist,
+  timer
 };
