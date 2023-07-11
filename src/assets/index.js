@@ -9,6 +9,7 @@ import close from "./close.svg";
 import network from "./network.png"
 import todolist from "./todolist.png"
 import timer from "./timer.png"
+import avatar from "./avatar.webp"
 
 import css from "./tech/css.png";
 import github2 from "./tech/github2.png";
@@ -66,5 +67,6 @@ export {
   tripguide,
   network,
   todolist,
-  timer
+  timer,
+  avatar
 };
